@@ -39,6 +39,8 @@ The goal of this repository is to document my Python learning journey and improv
 - Bro Code Python Course
 - HackerRank Practice
 - Official Python Documentation
+- GFG Ques
+  
 
 ## Progress
 
