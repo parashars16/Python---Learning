@@ -1,0 +1,22 @@
+import random 
+
+class Dice:
+    def __init__(self, roles):
+        self.roles  = roles
+        self.counts = 0
+
+    def __iter__(self):
+        return self 
+
+    def __next__(self):
+        if self.counts < self.roles:
+            self.counts += 1
+            return random.randint(1 , 6)
+        else :
+            raise StopIteration
+
+dice = Dice(3)
+
+for die in dice: 
+   print(die)
+    
